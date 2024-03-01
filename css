@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	background: #03dfff;
+	background: linear-gradient(90deg, rgba(255,116,177,1) 0%, rgba(114,196,249,1) 65%);
+}
+
+.Container{
+	position: relative;
+	max-width: 500px;
+	padding: 100px;
+	margin: 10px auto;
+}
+
+.Container {
+    width: 800px;
+    height: 100vh;
+    border: 1px solid #ECF0F1;
+    box-shadow: 0px 4px 20px 30px #BDC3C7;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.Container > input[type="text"]{
+	width: 90%;
+	padding: 10px;
+	font-size: 22px;
+	outline: none;
+}
+.text{
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 540px;
+    height: 93px;
+    margin: 0 auto;
+    font-family: 'Ubuntu';
+    font-size: 48px;
+    color: #ABA4A4;
+    padding: 19px 22px;
+    outline: none;
+}
+
+
+.header {
+    all: unset;
+    font-family: 'Anton';
+    font-size: 66px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+ul li{
+	width: 100%;
+	padding: 18px;
+	margin: 5px 0;
+	background: white;
+	font-size: 22px;
+	counter-increment: my-counter;
+    position: relative;
+    list-style: none;
+    
+}
+span{
+    position :absolute;
+    right: 10px;
+}
+
+.box {
+    font-family: 'Anton';
+    font-size: 35px;
+    text-align: center;
+}
+
+.input-label{
+    font-family: 'Anton';
+    font-size: 19px;
+    text-align: center;
+}
+
+
+.box {
+    background: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    height: 53px;
+    margin: 0 auto;
+    font-family: 'Ubuntu';
+    font-size: 25px;
+    padding: 10px 40px;
+    outline: none;
+}
